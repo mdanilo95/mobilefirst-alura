@@ -1,0 +1,50 @@
+.especialidades {
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+
+}
+
+.especialidades__lista {
+    display: flex;
+    flex-wrap: column;
+
+    justify-content: space-evenly; 
+}
+
+.especialidades__item {
+    padding: 2rem 2rem 3rem 4.5rem; 
+
+    background-repeat: no-repeat;
+    background-position: top 1.2rem left 1.5rem;
+}
+
+.especialidades__item--tempo {
+    background-image: url(../img/icone-relogio.png);
+    
+}
+
+.especialidades__item--foco {
+    background-image: url(../img/icone-dinheiro.png);
+    
+}
+
+.especialidades__item--qualificado {
+    background-image: url(../img/icone-quimica.png);
+    
+}
+
+.item__titulo {
+    align-items: center;
+    font-family: var(--font-title);
+    font-weight: 700;
+    font-size: 1.25rem;
+    
+    color: var(--cinza-escuro);
+    
+    padding-bottom: 2rem;
+}
+
+.item__paragrafo{ 
+    line-height: normal;
+}
+

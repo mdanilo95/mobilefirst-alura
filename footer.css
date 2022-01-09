@@ -1,0 +1,54 @@
+footer {
+    background-color: var(--bg-rodape);
+    
+    font-family: var(--font-title);
+}
+
+.div__footer {
+    font-size: 1rem;
+
+    background-color: var(--bg-rodape);
+    
+    
+    padding: 2rem 2rem;
+}
+
+.lista__app {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+}
+
+
+
+/*## CONTATOS;*/
+
+.footer__list {
+    color: var(--branco);
+    font-weight: 400;
+    font-style: 1.2rem;
+
+    display: flex;
+    flex-direction: column;    
+
+    box-sizing: border-box;
+
+    padding-bottom: 2rem;
+
+}
+
+.footer__email, .footer__telefone {
+    color: var(--branco);
+
+    line-height: 1.8rem;
+
+    text-align: center;
+}
+
+.email__icon {
+    width: 20px;
+
+}
+
+

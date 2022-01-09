@@ -1,0 +1,36 @@
+.institucional {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.institucional__titulo {
+    font-family: var(--font-title);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--cinza-escuro);
+    
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.institucional__endereco {
+    font-size: 1.2rem;
+
+    line-height: normal;
+
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.institucional__contato {
+    
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+    
+}
+
+.institucional__email {
+    color: rgb(122, 122, 180);
+    text-decoration: underline;
+
+}
