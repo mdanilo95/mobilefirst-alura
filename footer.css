@@ -1,42 +1,36 @@
-footer {
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     background-color: var(--bg-rodape);
-    
+        
     font-family: var(--font-title);
-}
-
-.div__footer {
     font-size: 1rem;
-
-    background-color: var(--bg-rodape);
+       
     
-    
-    padding: 2rem 2rem;
+    padding: 2.5rem 2.5rem;
+}
+.footer__logo{
+    padding-bottom: 1rem;
 }
 
 .lista__app {
     display: flex;
-    flex-wrap: wrap;
-
-    justify-content: space-evenly;
+    
+    padding-bottom: 1rem;
 }
 
+.redes__sociais {
+    display: block;
+    padding: 2rem;
+
+    width: 47px;
+    height: 47px;
+}
 
 
 /*## CONTATOS;*/
-
-.footer__list {
-    color: var(--branco);
-    font-weight: 400;
-    font-style: 1.2rem;
-
-    display: flex;
-    flex-direction: column;    
-
-    box-sizing: border-box;
-
-    padding-bottom: 2rem;
-
-}
 
 .footer__email, .footer__telefone {
     color: var(--branco);
@@ -47,7 +41,7 @@ footer {
 }
 
 .email__icon {
-    width: 20px;
+    width: 15px;
 
 }
 

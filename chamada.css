@@ -4,7 +4,6 @@
     align-items: center;
 
     color: var(--branco);
-    text-align: center;
     
     background-color: var(--bg-chamada-mobile);
 
@@ -17,6 +16,7 @@
     font-size: 1.7rem;
     line-height: normal;
     font-weight: 700;
+    text-align: center;
 
     text-transform: uppercase;
     margin-top: 2.5rem;
@@ -33,4 +33,12 @@
 .chamada__botao {   
     text-decoration: none;
 
+}
+
+
+@media screen and (min-width: 1024px) {
+    .chamada {
+        background-image: url(../img/bg-intro.jpg);
+        background-size: cover;
+    }
 }

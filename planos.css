@@ -13,7 +13,7 @@
     text-transform: uppercase;
     text-align: center;
 
-    margin-bottom: 2.25rem;
+    margin-bottom: 2.75rem;
 }
 
 .planos__cartoes {
@@ -30,7 +30,7 @@
 
     background-color: white;
 
-    width: 100%;
+    width: 100vw;
     max-width: 400px;
 
     margin-bottom: 3rem;
@@ -50,8 +50,6 @@
 
     padding: .75rem 0;
 
-    margin-bottom: .5rem;
-
     border-bottom: 2px solid var(--azul-claro);
 }
 
@@ -61,7 +59,7 @@
 
 .cartao__preco {
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
@@ -69,7 +67,7 @@
 
 .cartao__texto {
     color: var(--fonte-cinza);
-    line-height: 28px;
+    line-height: 2rem;
     text-align: center;
 }
 
@@ -109,4 +107,15 @@
 
 .cartao__botao--mega {
     border-color: var(--planos-cartao-mega);
+}
+
+@media screen and (min-width: 1024px) {
+    .planos__cartoes {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .cartao {
+        max-width: 300px;
+    }
 }

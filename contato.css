@@ -6,7 +6,7 @@
     width: 100%;
 
     
-    padding: 2rem 0;
+    padding: 1rem 0;
     background-color: whitesmoke;
 
 }
@@ -32,5 +32,7 @@
 .contato__button {
     margin-top: 1.5rem;
     border-color: var(--cinza-escuro);
+
+    margin-bottom: 2rem;
     
 }
